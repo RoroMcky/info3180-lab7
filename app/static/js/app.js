@@ -22,7 +22,8 @@ Vue.component('app-header', {
 });
 const Upload=Vue.component('upload-form',{
     template:`
-    
+    <p>Upload Form</p>
+    <br>
     <form id="uploadForm" @submit.prevent="UploadForm" enctype="multipart/form-data">
     <label>Description:</label><br/>
     <textarea name='description'></textarea><br/>
